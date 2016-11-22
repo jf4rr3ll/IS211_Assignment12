@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>To Do List</title>	
+
+    <link     href='http://fonts.googleapis.com/css?family=Sintony:400,700'     rel='stylesheet' type='text/css'>
+
+    <style type="text/css">    
+      body
+      {
+        background-color:#fff;
+      }
+
+      h1
+      {
+        font-size:48px;
+        margin-top:0;
+        font-family:Arial, sans-serif;
+        text-shadow:2px 0 15px #ffffff;
+        letter-spacing:4px;
+        text-decoration:none;
+        color:#fff;
+      }
+
+      form
+      {
+        font-size:48px;
+        margin-top:0;
+	text-align:center;
+        font-family:Arial, sans-serif;
+        text-shadow:2px 0 15px #292929;
+        letter-spacing:4px;
+        text-decoration:none;
+        color:#DDD;
+      }
+
+      #banner
+      {
+        width:1600px;
+        height:800px;
+        text-align:center;
+        background-image:url(http://www.defeatdiabetes.org/wp-content/uploads/2014/02/KIDD-apple-and-books.jpg);
+        background-repeat:no-repeat;
+        border-radius:5px;
+        margin:10px auto auto;
+        padding:200px 0 0 0;
+      }
+
+      .lead
+      {
+        background-color:rgba(255,255,255,0.6);
+        border-radius:3px;
+        box-shadow:rgba(0,0,0,0.2) 0 1px 3px;
+        font-family:Sintony, sans-serif;
+      }
+    </style>
+
+  </head>  
+
+  <body>
+    <div id="banner">
+	<h1>Teacher Login</h1>
+    <div id="form">
+	<form action="/submit" method="post">
+		<input type="text" name="username" placeholder="Username"></input>
+		<input type="text" name="password" placeholder="Password"></input>
+		<input type="submit" value="Login">
+	</form>
+    </div>
+    </div>
+
+  </body>
+</html>
